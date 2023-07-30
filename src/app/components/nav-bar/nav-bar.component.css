@@ -1,0 +1,77 @@
+nav{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side{
+    display: flex;
+    align-items: center;
+}
+
+.hamburguerMenu{
+    position: relative;
+    display: inline-block;
+}
+
+.hamburguerMenu-button{
+    background-color: #fff;
+    color: #DD5D5D;
+    font-size: large;
+    font-weight: 700;
+    border: none;
+    height: 60px;
+    padding-right: 8px;
+}
+
+.hamburguerMenu-button a{
+    padding-bottom: 200px;
+}
+
+.hamburguerMenu-button img{
+    width: 50px;
+    height: 50px;
+    padding: 0px 8px;
+}
+
+.hamburguerMenu-content{
+    position: absolute;
+    display: none;
+    min-width: 115px;
+    z-index:2;
+}
+
+.hamburguerMenu-content a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 16px;
+}
+
+a{
+    text-decoration: none;
+    color: #DD5D5D;
+    font-size:large;
+    font-weight: 700;
+}
+
+.hamburguerMenu-content a:hover {background-color:#DD5D5D;color: #fff;}
+
+.hamburguerMenu:hover .hamburguerMenu-content{display: block; background-color: #fff;}
+
+.hamburguerMenu:hover .hamburguerMenu-button{background-color: #DD5D5D;}
+
+.logo img {
+    height: 55px;
+}
+
+.right-side{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    width: 180px;
+    align-items: center;
+}
+
+.right-side__subscribe:hover{text-decoration: underline;}
+
+.right-side__signIn:hover{text-decoration: underline;}
